@@ -11,10 +11,12 @@ void Source::set_antenna(std::string ant) {
     BOOST_LOG_TRIVIAL(info) << "Setting antenna to [" << cast_to_osmo_sptr(source_block)->get_antenna() << "]";
   }
 
+#if 0
   if (driver == "usrp") {
     BOOST_LOG_TRIVIAL(info) << "Setting antenna to [" << antenna << "]";
     cast_to_usrp_sptr(source_block)->set_antenna(antenna, 0);
   }
+#endif
 }
 
 std::string Source::get_antenna() {
@@ -68,10 +70,12 @@ void Source::set_gain(int r) {
     BOOST_LOG_TRIVIAL(info) << "Gain set to: " << cast_to_osmo_sptr(source_block)->get_gain();
   }
 
+#if 0
   if (driver == "usrp") {
     gain = r;
     cast_to_usrp_sptr(source_block)->set_gain(gain);
   }
+#endif
 }
 
 void Source::add_gain_stage(std::string stage_name, int value) {
@@ -508,6 +512,7 @@ Source::Source(double c, double r, double e, std::string drv, std::string dev, C
     source_block = osmo_src;
   }
 
+#if 0
   if (driver == "usrp") {
     gr::uhd::usrp_source::sptr usrp_src;
     usrp_src = gr::uhd::usrp_source::make(device, uhd::stream_args_t("fc32"));
@@ -523,6 +528,7 @@ Source::Source(double c, double r, double e, std::string drv, std::string dev, C
 
     source_block = usrp_src;
   }
+#endif
 }
 
 std::vector<Recorder *> Source::get_recorders() {
