@@ -59,6 +59,7 @@
 #include "../gr_blocks/transmission_sink.h"
 
 //#include <op25_repeater/include/op25_repeater/rx_status.h>
+#include "../global_structs.h"
 
 unsigned GCD(unsigned u, unsigned v);
 

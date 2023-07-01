@@ -67,18 +67,18 @@ struct Call_Error {
   double spike_count;
 };
 
-enum Call_Data_Status { INITIAL,
+typedef enum  { INITIAL,
                         SUCCESS,
                         RETRY,
-                        FAILED };
-                  
-enum Recorder_Type { DEBUG,
+                        FAILED } Call_Data_Status;
+
+typedef enum { DEBUG,
                       SIGMF,
                       ANALOG,
                       ANALOGC,
                       P25,
                       P25C,
-                      DMR };
+                      DMR } Recorder_Type;
 
 struct Call_Data_t {
   long talkgroup;

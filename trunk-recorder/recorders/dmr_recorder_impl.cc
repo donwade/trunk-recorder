@@ -5,6 +5,7 @@
 #include "../gr_blocks/plugin_wrapper_impl.h"
 #include "../plugin_manager/plugin_manager.h"
 #include <boost/log/trivial.hpp>
+#include "recorder.h"
 
 dmr_recorder_sptr make_dmr_recorder(Source *src, Recorder_Type type) {
   dmr_recorder *recorder = new dmr_recorder_impl(src, type);
@@ -218,8 +219,10 @@ void dmr_recorder_impl::initialize(Source *src) {
   rx_queue = gr::msg_queue::make(100);
   int verbosity = 0; // 10 = lots of debug messages
 
+  //gr::op25_repeater::frame_assembler::make(const char* options, int debug, int msgq_id, gr::msg_queue::sptr queue)
   framer = gr::op25_repeater::frame_assembler::make("file:///tmp/out1.raw", verbosity, 1, rx_queue);
-  // op25_frame_assembler = gr::op25_repeater::p25_frame_assembler::make(0, silence_frames, udp_host, udp_port, verbosity, do_imbe, do_output, do_msgq, rx_queue, do_audio_output, do_tdma, do_nocrypt);
+
+  //op25_frame_assembler = gr::op25_repeater::p25_frame_assembler::make(0, silence_frames, udp_host, udp_port, verbosity, do_imbe, do_output, do_msgq, rx_queue, do_audio_output, do_tdma, do_nocrypt);
   levels = gr::blocks::multiply_const_ff::make(1);
   plugin_sink = gr::blocks::plugin_wrapper_impl::make(std::bind(&dmr_recorder_impl::plugin_callback_handler, this, std::placeholders::_1, std::placeholders::_2));
 

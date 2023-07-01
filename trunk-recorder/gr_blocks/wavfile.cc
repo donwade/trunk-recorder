@@ -20,7 +20,7 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#include <boost/detail/endian.hpp> //BOOST_BIG_ENDIAN
+#include <boost/endian.hpp> //BOOST_BIG_ENDIAN
 #include <cstring>
 #include <gnuradio/blocks/wavfile.h>
 #include <iostream>
