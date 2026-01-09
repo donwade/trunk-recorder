@@ -1,0 +1,138 @@
+Decimal,Mode,Description,Alpha Tag,Hex,Category,Tag
+1,D,Countywide 1,Countywide 1,001,Interop,Interop
+3,D,Countywide 2,Countywide 2,003,Interop,Interop
+5,D,Countywide 3,Countywide 3,005,Interop,Interop
+7,D,Countywide 4,Countywide 4,007,Interop,Interop
+11,D,Suffolk Bus Corp. Mini Vans (PAPA),Mini Vans (PAPA),00b,County Transit,Transportation
+13,D,Suffolk Transit to Suffolk PD Dispatch,Transit to PD,00d,County Transit,Interop
+15,D,Dispatchers (Base-to-Base),Transit Bases,00f,County Transit,Transportation
+17,D,Suffolk Bus Corp (Western Townships),Suffolk Bus 1,011,County Transit,Transportation
+19,D,Babylon Area Buses (E.B.T. Routes),Babylon Bus,013,County Transit,Transportation
+21,D,Suffolk Bus Corp (Brookhaven/Western Twps),Suffolk Bus 2,015,County Transit,Transportation
+23,D,Sunrise Coach/Hampton Jitney buses (East End),Sunrise Bus,017,County Transit,Transportation
+25,D,Intercounty Coach (Western Townships),County Bus,019,County Transit,Transportation
+27,D,Campus Police Ch 1A,SBU PD Ch 1A,01b,Stony Brook University,Law Dispatch
+29,D,Campus Police Ch 2A,SBU PD Ch 2A,01d,Stony Brook University,Law Tac
+31,D,Police,HuntingtonBay PD,01f,Huntington Bay,Law Dispatch
+37,T,Campus Police,SUNY Farmngdl PD,025,Farmingdale State College,Law Dispatch
+41,D,MacArthur Crash Fire Rescue,ISP Crash FD,029,MacArthur Airport,Fire Dispatch
+49,D,HAZMAT,HAZMAT,031,County Fire,Fire-Tac
+53,D,Sheriff 1,Sheriff 1,035,Sheriff,Law Dispatch
+55,D,Sheriff 2,Sheriff 2,037,Sheriff,Law Tac
+59,D,Police,Ocean Beach PD,03b,Ocean Beach,Law Dispatch
+61,D,County Parks,Parks,03d,Department of Public Works,Public Works
+63,D,Park Police,NYS Park PD,03f,New York State,Law Dispatch
+67,D,Police,Northport PD,043,Northport,Law Dispatch
+69,D,Police,Lloyd Harbor PD,045,Lloyd Harbor,Law Dispatch
+71,D,Park Rangers,Park Rangers,047,Smithtown,Law Talk
+77,D,Fire Marshal,Brookhaven FM,04d,Brookhaven,Fire-Tac
+79,D,Police,Asharoken PD,04f,Asharoken,Law Dispatch
+85,D,Fire/Rescue/Emergency Services - Dispatch,FRES Dispatch,055,County Fire,Fire Dispatch
+87,D,Watch Center,NYS Watch Center,057,New York State,Interop
+89,D,Fire Marshal,SBU Fire Marshal,059,Stony Brook University,Multi-Dispatch
+91,D,Campus Police Ch 3,SBU PD Ch 3,05b,Stony Brook University,Law Tac
+93,D,Hospital Security,SBU Hosp Sec,05d,Stony Brook University,Security
+101,D,MacArthur PD,ISP Airport PD,065,MacArthur Airport,Law Dispatch
+103,D,Police,Riverhead PD 1,067,Riverhead,Law Dispatch
+105,D,Police Car to Car,Riverhead PD 2,069,Riverhead,Law Talk
+111,T,Police,Southold PD,06f,Southold,Law Dispatch
+119,D,Public Safety,SCCC Pub Sfty,077,Suffolk County Community College,Security
+131,D,ALS Call,ALS Call,083,MEDCOM,Hospital
+133,D,Medical Control 1,Med Control 1,085,MEDCOM,Hospital
+135,D,Medical Control 2,Med Control 2,087,MEDCOM,Hospital
+137,D,Medical Control 3,Med Control 3,089,MEDCOM,Hospital
+139,D,Medical Control 4,Med Control 4,08b,MEDCOM,Hospital
+141,D,Medical Dispatch,Medical Dispatch,08d,MEDCOM,EMS Dispatch
+149,D,MEDCOM Central,MEDCOM Central,095,MEDCOM,Hospital
+151,D,MEDCOM East,MEDCOM East,097,MEDCOM,Hospital
+153,D,MEDCOM West,MEDCOM West,099,MEDCOM,Hospital
+155,D,Hospital North,Hospital North,09b,MEDCOM,Hospital
+157,D,Hospital South,Hospital South,09d,MEDCOM,Hospital
+161,D,FRES Command,FRES Command,0a1,County Fire,Fire-Talk
+163,D,Fire/Rescue/Emergency Services - Ops 1,FRES Ops 1,0a3,County Fire,Fire-Tac
+165,D,Fire/Rescue/Emergency Services - Ops 2,FRES Ops 2,0a5,County Fire,Fire-Talk
+167,D,Fire/Rescue/Emergency Services - Ops 3,FRES Ops 3,0a7,County Fire,Fire-Tac
+171,T,FRES Watch Ops,FRES Watch Ops,0ab,County Fire,Fire-Tac
+215,D,Parks Dept,Brookhaven Parks,0d7,Brookhaven,Public Works
+221,D,Town Code Enforcement,Brookhaven Code,0dd,Brookhaven,Law Dispatch
+225,D,Highway Dept,Brookhaven HWY,0e1,Brookhaven,Public Works
+231,D,NYSP Troop L,NYSP Troop L,0e7,New York State,Law Dispatch
+301,T,Public Safety and Code Enforcement,Patchogue PS,12d,Patchogue,Multi-Dispatch
+1376,D,Radio Technicians,Radio Techs,560,Radio Techs,Public Works
+1671,D,Surveillance,Surveillance,687,County Police,Law Tac
+3001,D,PD South Car to Car (1st/3rd/5th),SPCD South,bb9,County Police,Law Talk
+3015,D,PD North Car to Car (2nd/4th/6th),SCPD North,bc7,County Police,Law Talk
+3021,D,Aviation Medevac ,Aviation Medevac,bcd,MEDCOM,EMS-Tac
+3111,D,1st Precinct Dispatch,SCPD 1st Pct,c27,County Police,Law Dispatch
+3211,D,2nd Precinct Dispatch,SCPD 2nd Pct,c8b,County Police,Law Dispatch
+3311,D,3rd Precinct Dispatch ,SCPD 3rd Pct,cef,County Police,Law Dispatch
+3411,D,4th Precinct Dispatch,SCPD 4th Pct,d53,County Police,Law Dispatch
+3511,D,5th Precinct Dispatch,SCPD 5th Pct,db7,County Police,Law Dispatch
+3611,D,6th Precinct Dispatch ,SCPD 6th Pct,e1b,County Police,Law Dispatch
+3711,D,7th Precinct Dispatch,SCPD 7th Pct,e7f,County Police,Law Dispatch
+3803,D,"Command Band (Highway Patrol, Aviation, Marine)",SCPD Command,edb,County Police,Law Dispatch
+3907,D,Detective Squad,Detectives,f43,County Police,Law Tac
+4091,De,Radio Tech Services Ch 2,Radio Techs 2,ffb,Radio Techs,Public Works
+4093,D,Radio Tech Services Ch 1,Radio Techs 1,ffd,Radio Techs,Public Works
+10001,T,Babylon 1,FD Babylon 1,2711,Fire West,Fire-Tac
+10003,T,Babylon 2,FD Babylon 2,2713,Fire West,Fire-Tac
+10005,T,Babylon 3,FD Babylon 3,2715,Fire West,Fire-Tac
+10007,T,Babylon 4,FD Babylon 4,2717,Fire West,Fire-Tac
+10051,T,Huntington 1,FD Huntington 1,2743,Fire West,Fire-Tac
+10053,T,Huntington 2,FD Huntington 2,2745,Fire West,Fire-Tac
+10055,T,Huntington 3,FD Huntington 3,2747,Fire West,Fire-Tac
+10057,T,Huntington 4,FD Huntington 4,2749,Fire West,Fire-Tac
+10059,T,Huntington 5,FD Huntington 5,274b,Fire West,Fire-Tac
+10101,T,Islip 1,FD Islip 1,2775,Fire West,Fire-Tac
+10103,T,Islip 2,FD Islip 2,2777,Fire West,Fire-Tac
+10105,T,Islip 3,FD Islip 3,2779,Fire West,Fire-Tac
+10107,T,Islip 4,FD Islip 4,277b,Fire West,Fire-Tac
+10109,T,Islip 5,FD Islip 5,277d,Fire West,Fire-Tac
+10151,T,Smithtown 1,FD Smithtown 1,27a7,Fire Central,Fire-Tac
+10153,T,Smithtown 2,FD Smithtown 2,27a9,Fire Central,Fire-Tac
+10155,T,Smithtown 3,FD Smithtown 3,27ab,Fire Central,Fire-Tac
+10201,T,Brookhaven 1,FD Brookhaven 1,27d9,Fire Central,Fire-Tac
+10203,T,Brookhaven 2,FD Brookhaven 2,27db,Fire Central,Fire-Tac
+10205,T,Brookhaven 3,FD Brookhaven 3,27dd,Fire Central,Fire-Tac
+10207,T,Brookhaven 4,FD Brookhaven 4,27df,Fire Central,Fire-Tac
+10209,T,Brookhaven 5,FD Brookhaven 5,27e1,Fire Central,Fire-Tac
+10211,T,Brookhaven 6,FD Brookhaven 6,27e3,Fire Central,Fire-Tac
+10213,T,Brookhaven 7,FD Brookhaven 7,27e5,Fire Central,Fire-Tac
+10215,T,Brookhaven 8,FD Brookhaven 8,27e7,Fire Central,Fire-Tac
+10217,T,Brookhaven 9,FD Brookhaven 9,27e9,Fire Central,Fire-Tac
+10219,T,Brookhaven 10,FD Brookhaven 10,27eb,Fire Central,Fire-Tac
+10251,T,Fire Island 1,FD Fire Island 1,280b,Fire Central,Fire-Tac
+10301,T,Riverhead 1,FD Riverhead 1,283d,Fire East,Fire-Tac
+10303,T,Riverhead 2,FD Riverhead 2,283f,Fire East,Fire-Tac
+10351,T,Southold 1,FD Southold 1,286f,Fire East,Fire-Tac
+10353,T,Southold 2,FD Southold 2,2871,Fire East,Fire-Tac
+10355,T,Southold 3,FD Southold 3,2873,Fire East,Fire-Tac
+10401,T,Southampton 1,FD Southampton 1,28a1,Fire East,Fire-Tac
+10403,T,Southampton 2,FD Southampton 2,28a3,Fire East,Fire-Tac
+10405,T,Southampton 3,FD Southampton 3,28a5,Fire East,Fire-Tac
+10407,T,Southampton 4,FD Southampton 4,28a7,Fire East,Fire-Tac
+10451,T,East Hampton 1,FD E Hampton 1,28d3,Fire East,Fire-Tac
+10453,T,East Hampton 2,FD E Hampton 2,28d5,Fire East,Fire-Tac
+10501,D,FRES Page East,FRES Paging East,2905,County Fire,Fire Dispatch
+10503,D,FRES Page West,FRES Paging West,2907,County Fire,Fire Dispatch
+20053,D,Sheriff 1 - Patch of TG 53,Sheriff 1 Patch,4e55,Patches,Law Dispatch
+20149,D,MEDCOM Central,MEDCOM Central,4eb5,MEDCOM,Hospital
+20151,D,MEDCOM East,MEDCOM East,4eb7,MEDCOM,Hospital
+20161,D,FRES Command,FRES Command,4ec1,County Fire,Fire-Tac
+20231,D,NYS Police 1,NYSP 1 Patch,4f07,Patches,Law Dispatch
+22001,T,Police 1,V/SHamp PD 1,55f1,Southampton (Village),Law Dispatch
+22003,T,Police 2,V/SHamp PD 2,55f3,Southampton (Village),Law Tac
+22005,T,EMS,V/SHamp EMS,55f5,Southampton (Village),EMS Dispatch
+23001,T,Public Safety Tac,Babylon Pub Sfty,59d9,Babylon (Town),Multi-Tac
+23003,T,Public Safety Ops,Babylon Pub Sfty,59db,Babylon (Town),Multi-Dispatch
+23803,D,Command Band - P25 System Only,Command P25,5cfb,County Police,Law Dispatch
+23811,D,Suffolk County Law Enforcement Response Group 1,SCLERG 1,5d03,County Police,Law Tac
+23903,D,Suffolk County Law Enforcement Response Group 2,SCLERG 2,5d5f,County Police,Law Tac
+23951,D,Public Safety,Public Safety,5d8f,Interop,Interop
+30001,D,"Northwell EMS Willy"" Unit""",Northwell EMS,7531,MEDCOM,EMS Dispatch
+40105,T,All Call,EH All Call,9ca9,East Hampton,Interop
+40305,T,Town Police,EHTPD Dispatch,9d71,East Hampton,Law Dispatch
+40405,T,Village Police,EHVPD Dispatch,9dd5,East Hampton,Law Dispatch
+40605,T,Police,Sag Harbor PD,9e9d,Sag Harbor,Law Dispatch
+40909,T,Fire Dispatch,EH FD Dispatch,9fcd,East Hampton,Fire Dispatch
+

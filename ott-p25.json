@@ -1,0 +1,51 @@
+{
+    "ver": 2,
+    "sources": [
+        {
+            "center": 866667500,
+            "rate": 2832000,
+            "error": 2500,
+            "gain": 29.7,
+            "debugRecorders": 0,
+            "digitalRecorders": 0,
+            "driver": "osmosdr",
+            "device": "rtl=0"
+        }
+    ],
+    "systems": [
+        {
+            "control_channels": [
+                866887500
+            ],
+            "type": "p25",
+            "talkgroupsFile": "ott-p25.csv",
+            "talkgroupDisplayFormat": "id_tag",
+            "shortName": "ott-p25",
+            "modulation": "c4fm",
+            "callLog": true,
+            "apiKey": "xc"
+        }
+    ],
+    "uploadServer": "https://api.openmhz.com",
+    "captureDir": "/home/adminuser/recordings/",
+    "plugins": [
+        {
+            "name": "rdioscanner_uploader",
+            "library": "librdioscanner_uploader.so",
+            "server": "http://127.0.0.1:3000",
+            "systems": [
+                {
+                    "shortName": "SCPD",
+                    "apiKey": "zx",
+                    "systemId": 101
+                },
+                {
+                    "shortName": "SCFD",
+                    "apiKey": "zx",
+                    "systemId": 102
+                }
+            ]
+        }
+    ]
+}
+
