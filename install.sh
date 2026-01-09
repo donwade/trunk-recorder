@@ -28,7 +28,7 @@ pre_reqs() {
 }
 
 freshen_repo() {
-    git pull
+    #git pull
     if [ -d build ]; then
 	rm -rf build
     fi
@@ -38,7 +38,7 @@ do_build() {
     mkdir build
     cd build
     cmake ../
-    make
+    make SHELL='/bin/bash -x'  -j4
     cd ..
 }
 
