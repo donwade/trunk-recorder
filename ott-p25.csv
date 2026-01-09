@@ -1,138 +1,197 @@
-Decimal,Mode,Description,Alpha Tag,Hex,Category,Tag
-1,D,Countywide 1,Countywide 1,001,Interop,Interop
-3,D,Countywide 2,Countywide 2,003,Interop,Interop
-5,D,Countywide 3,Countywide 3,005,Interop,Interop
-7,D,Countywide 4,Countywide 4,007,Interop,Interop
-11,D,Suffolk Bus Corp. Mini Vans (PAPA),Mini Vans (PAPA),00b,County Transit,Transportation
-13,D,Suffolk Transit to Suffolk PD Dispatch,Transit to PD,00d,County Transit,Interop
-15,D,Dispatchers (Base-to-Base),Transit Bases,00f,County Transit,Transportation
-17,D,Suffolk Bus Corp (Western Townships),Suffolk Bus 1,011,County Transit,Transportation
-19,D,Babylon Area Buses (E.B.T. Routes),Babylon Bus,013,County Transit,Transportation
-21,D,Suffolk Bus Corp (Brookhaven/Western Twps),Suffolk Bus 2,015,County Transit,Transportation
-23,D,Sunrise Coach/Hampton Jitney buses (East End),Sunrise Bus,017,County Transit,Transportation
-25,D,Intercounty Coach (Western Townships),County Bus,019,County Transit,Transportation
-27,D,Campus Police Ch 1A,SBU PD Ch 1A,01b,Stony Brook University,Law Dispatch
-29,D,Campus Police Ch 2A,SBU PD Ch 2A,01d,Stony Brook University,Law Tac
-31,D,Police,HuntingtonBay PD,01f,Huntington Bay,Law Dispatch
-37,T,Campus Police,SUNY Farmngdl PD,025,Farmingdale State College,Law Dispatch
-41,D,MacArthur Crash Fire Rescue,ISP Crash FD,029,MacArthur Airport,Fire Dispatch
-49,D,HAZMAT,HAZMAT,031,County Fire,Fire-Tac
-53,D,Sheriff 1,Sheriff 1,035,Sheriff,Law Dispatch
-55,D,Sheriff 2,Sheriff 2,037,Sheriff,Law Tac
-59,D,Police,Ocean Beach PD,03b,Ocean Beach,Law Dispatch
-61,D,County Parks,Parks,03d,Department of Public Works,Public Works
-63,D,Park Police,NYS Park PD,03f,New York State,Law Dispatch
-67,D,Police,Northport PD,043,Northport,Law Dispatch
-69,D,Police,Lloyd Harbor PD,045,Lloyd Harbor,Law Dispatch
-71,D,Park Rangers,Park Rangers,047,Smithtown,Law Talk
-77,D,Fire Marshal,Brookhaven FM,04d,Brookhaven,Fire-Tac
-79,D,Police,Asharoken PD,04f,Asharoken,Law Dispatch
-85,D,Fire/Rescue/Emergency Services - Dispatch,FRES Dispatch,055,County Fire,Fire Dispatch
-87,D,Watch Center,NYS Watch Center,057,New York State,Interop
-89,D,Fire Marshal,SBU Fire Marshal,059,Stony Brook University,Multi-Dispatch
-91,D,Campus Police Ch 3,SBU PD Ch 3,05b,Stony Brook University,Law Tac
-93,D,Hospital Security,SBU Hosp Sec,05d,Stony Brook University,Security
-101,D,MacArthur PD,ISP Airport PD,065,MacArthur Airport,Law Dispatch
-103,D,Police,Riverhead PD 1,067,Riverhead,Law Dispatch
-105,D,Police Car to Car,Riverhead PD 2,069,Riverhead,Law Talk
-111,T,Police,Southold PD,06f,Southold,Law Dispatch
-119,D,Public Safety,SCCC Pub Sfty,077,Suffolk County Community College,Security
-131,D,ALS Call,ALS Call,083,MEDCOM,Hospital
-133,D,Medical Control 1,Med Control 1,085,MEDCOM,Hospital
-135,D,Medical Control 2,Med Control 2,087,MEDCOM,Hospital
-137,D,Medical Control 3,Med Control 3,089,MEDCOM,Hospital
-139,D,Medical Control 4,Med Control 4,08b,MEDCOM,Hospital
-141,D,Medical Dispatch,Medical Dispatch,08d,MEDCOM,EMS Dispatch
-149,D,MEDCOM Central,MEDCOM Central,095,MEDCOM,Hospital
-151,D,MEDCOM East,MEDCOM East,097,MEDCOM,Hospital
-153,D,MEDCOM West,MEDCOM West,099,MEDCOM,Hospital
-155,D,Hospital North,Hospital North,09b,MEDCOM,Hospital
-157,D,Hospital South,Hospital South,09d,MEDCOM,Hospital
-161,D,FRES Command,FRES Command,0a1,County Fire,Fire-Talk
-163,D,Fire/Rescue/Emergency Services - Ops 1,FRES Ops 1,0a3,County Fire,Fire-Tac
-165,D,Fire/Rescue/Emergency Services - Ops 2,FRES Ops 2,0a5,County Fire,Fire-Talk
-167,D,Fire/Rescue/Emergency Services - Ops 3,FRES Ops 3,0a7,County Fire,Fire-Tac
-171,T,FRES Watch Ops,FRES Watch Ops,0ab,County Fire,Fire-Tac
-215,D,Parks Dept,Brookhaven Parks,0d7,Brookhaven,Public Works
-221,D,Town Code Enforcement,Brookhaven Code,0dd,Brookhaven,Law Dispatch
-225,D,Highway Dept,Brookhaven HWY,0e1,Brookhaven,Public Works
-231,D,NYSP Troop L,NYSP Troop L,0e7,New York State,Law Dispatch
-301,T,Public Safety and Code Enforcement,Patchogue PS,12d,Patchogue,Multi-Dispatch
-1376,D,Radio Technicians,Radio Techs,560,Radio Techs,Public Works
-1671,D,Surveillance,Surveillance,687,County Police,Law Tac
-3001,D,PD South Car to Car (1st/3rd/5th),SPCD South,bb9,County Police,Law Talk
-3015,D,PD North Car to Car (2nd/4th/6th),SCPD North,bc7,County Police,Law Talk
-3021,D,Aviation Medevac ,Aviation Medevac,bcd,MEDCOM,EMS-Tac
-3111,D,1st Precinct Dispatch,SCPD 1st Pct,c27,County Police,Law Dispatch
-3211,D,2nd Precinct Dispatch,SCPD 2nd Pct,c8b,County Police,Law Dispatch
-3311,D,3rd Precinct Dispatch ,SCPD 3rd Pct,cef,County Police,Law Dispatch
-3411,D,4th Precinct Dispatch,SCPD 4th Pct,d53,County Police,Law Dispatch
-3511,D,5th Precinct Dispatch,SCPD 5th Pct,db7,County Police,Law Dispatch
-3611,D,6th Precinct Dispatch ,SCPD 6th Pct,e1b,County Police,Law Dispatch
-3711,D,7th Precinct Dispatch,SCPD 7th Pct,e7f,County Police,Law Dispatch
-3803,D,"Command Band (Highway Patrol, Aviation, Marine)",SCPD Command,edb,County Police,Law Dispatch
-3907,D,Detective Squad,Detectives,f43,County Police,Law Tac
-4091,De,Radio Tech Services Ch 2,Radio Techs 2,ffb,Radio Techs,Public Works
-4093,D,Radio Tech Services Ch 1,Radio Techs 1,ffd,Radio Techs,Public Works
-10001,T,Babylon 1,FD Babylon 1,2711,Fire West,Fire-Tac
-10003,T,Babylon 2,FD Babylon 2,2713,Fire West,Fire-Tac
-10005,T,Babylon 3,FD Babylon 3,2715,Fire West,Fire-Tac
-10007,T,Babylon 4,FD Babylon 4,2717,Fire West,Fire-Tac
-10051,T,Huntington 1,FD Huntington 1,2743,Fire West,Fire-Tac
-10053,T,Huntington 2,FD Huntington 2,2745,Fire West,Fire-Tac
-10055,T,Huntington 3,FD Huntington 3,2747,Fire West,Fire-Tac
-10057,T,Huntington 4,FD Huntington 4,2749,Fire West,Fire-Tac
-10059,T,Huntington 5,FD Huntington 5,274b,Fire West,Fire-Tac
-10101,T,Islip 1,FD Islip 1,2775,Fire West,Fire-Tac
-10103,T,Islip 2,FD Islip 2,2777,Fire West,Fire-Tac
-10105,T,Islip 3,FD Islip 3,2779,Fire West,Fire-Tac
-10107,T,Islip 4,FD Islip 4,277b,Fire West,Fire-Tac
-10109,T,Islip 5,FD Islip 5,277d,Fire West,Fire-Tac
-10151,T,Smithtown 1,FD Smithtown 1,27a7,Fire Central,Fire-Tac
-10153,T,Smithtown 2,FD Smithtown 2,27a9,Fire Central,Fire-Tac
-10155,T,Smithtown 3,FD Smithtown 3,27ab,Fire Central,Fire-Tac
-10201,T,Brookhaven 1,FD Brookhaven 1,27d9,Fire Central,Fire-Tac
-10203,T,Brookhaven 2,FD Brookhaven 2,27db,Fire Central,Fire-Tac
-10205,T,Brookhaven 3,FD Brookhaven 3,27dd,Fire Central,Fire-Tac
-10207,T,Brookhaven 4,FD Brookhaven 4,27df,Fire Central,Fire-Tac
-10209,T,Brookhaven 5,FD Brookhaven 5,27e1,Fire Central,Fire-Tac
-10211,T,Brookhaven 6,FD Brookhaven 6,27e3,Fire Central,Fire-Tac
-10213,T,Brookhaven 7,FD Brookhaven 7,27e5,Fire Central,Fire-Tac
-10215,T,Brookhaven 8,FD Brookhaven 8,27e7,Fire Central,Fire-Tac
-10217,T,Brookhaven 9,FD Brookhaven 9,27e9,Fire Central,Fire-Tac
-10219,T,Brookhaven 10,FD Brookhaven 10,27eb,Fire Central,Fire-Tac
-10251,T,Fire Island 1,FD Fire Island 1,280b,Fire Central,Fire-Tac
-10301,T,Riverhead 1,FD Riverhead 1,283d,Fire East,Fire-Tac
-10303,T,Riverhead 2,FD Riverhead 2,283f,Fire East,Fire-Tac
-10351,T,Southold 1,FD Southold 1,286f,Fire East,Fire-Tac
-10353,T,Southold 2,FD Southold 2,2871,Fire East,Fire-Tac
-10355,T,Southold 3,FD Southold 3,2873,Fire East,Fire-Tac
-10401,T,Southampton 1,FD Southampton 1,28a1,Fire East,Fire-Tac
-10403,T,Southampton 2,FD Southampton 2,28a3,Fire East,Fire-Tac
-10405,T,Southampton 3,FD Southampton 3,28a5,Fire East,Fire-Tac
-10407,T,Southampton 4,FD Southampton 4,28a7,Fire East,Fire-Tac
-10451,T,East Hampton 1,FD E Hampton 1,28d3,Fire East,Fire-Tac
-10453,T,East Hampton 2,FD E Hampton 2,28d5,Fire East,Fire-Tac
-10501,D,FRES Page East,FRES Paging East,2905,County Fire,Fire Dispatch
-10503,D,FRES Page West,FRES Paging West,2907,County Fire,Fire Dispatch
-20053,D,Sheriff 1 - Patch of TG 53,Sheriff 1 Patch,4e55,Patches,Law Dispatch
-20149,D,MEDCOM Central,MEDCOM Central,4eb5,MEDCOM,Hospital
-20151,D,MEDCOM East,MEDCOM East,4eb7,MEDCOM,Hospital
-20161,D,FRES Command,FRES Command,4ec1,County Fire,Fire-Tac
-20231,D,NYS Police 1,NYSP 1 Patch,4f07,Patches,Law Dispatch
-22001,T,Police 1,V/SHamp PD 1,55f1,Southampton (Village),Law Dispatch
-22003,T,Police 2,V/SHamp PD 2,55f3,Southampton (Village),Law Tac
-22005,T,EMS,V/SHamp EMS,55f5,Southampton (Village),EMS Dispatch
-23001,T,Public Safety Tac,Babylon Pub Sfty,59d9,Babylon (Town),Multi-Tac
-23003,T,Public Safety Ops,Babylon Pub Sfty,59db,Babylon (Town),Multi-Dispatch
-23803,D,Command Band - P25 System Only,Command P25,5cfb,County Police,Law Dispatch
-23811,D,Suffolk County Law Enforcement Response Group 1,SCLERG 1,5d03,County Police,Law Tac
-23903,D,Suffolk County Law Enforcement Response Group 2,SCLERG 2,5d5f,County Police,Law Tac
-23951,D,Public Safety,Public Safety,5d8f,Interop,Interop
-30001,D,"Northwell EMS Willy"" Unit""",Northwell EMS,7531,MEDCOM,EMS Dispatch
-40105,T,All Call,EH All Call,9ca9,East Hampton,Interop
-40305,T,Town Police,EHTPD Dispatch,9d71,East Hampton,Law Dispatch
-40405,T,Village Police,EHVPD Dispatch,9dd5,East Hampton,Law Dispatch
-40605,T,Police,Sag Harbor PD,9e9d,Sag Harbor,Law Dispatch
-40909,T,Fire Dispatch,EH FD Dispatch,9fcd,East Hampton,Fire Dispatch
-
+Decimal,Hex,Mode,Description,Alpha Tag,Category
+3001,bb9,DE,OPS East,East,Law Dispatch
+3002,bba,DE,OPS Central,Central,Law Dispatch
+3003,bbb,DE,OPS West,West,Law Dispatch
+3021,bcd,DE,OPS TS 1,Traffic Services 1,Law Dispatch
+3022,bce,DE,OPS TS 2,Traffic Services 2,Law Dispatch
+3023,bcf,DE,OPS YOW 1,Airport 1,Law Dispatch
+3024,bd0,DE,OPS YOW 2,Airport 2,Law Tac
+3004,bbc,DE,OPS Sp Ops 1,Special Operations 1,Law Tac
+3005,bbd,DE,OPS Sp Ops 2,Special Operations 2,Law Tac
+3006,bbe,DE,OPS Sp Ops 3,Special Operations 3,Law Tac
+3037,bdd,DE,OPS POU Command,Public Order Unit Command,Law Tac
+3038,bde,DE,OPS POU 1,Public Order Unit 1,Law Tac
+3039,bdf,DE,OPS POU 2,Public Order Unit 2,Law Tac
+3052,bec,DE,OPS POU Support,Public Order Unit Support,Law Tac
+3075,c03,DE,OPS ESU,Emergency Services Unit,Law Tac
+3076,c04,DE,OPS MDT,Marine, Dive, and Trails Team,Law Tac
+3078,c06,DE,OPS MDT,Marine, Dive, and Trails Team,Law Tac
+3043,be3,DE,OPS Command,Command,Law Tac
+3007,bbf,DE,OPS Event 1,Event 1,Law Talk
+3008,bc0,DE,OPS Event 2,Event 2,Law Talk
+3009,bc1,DE,OPS Event 3,Event 3,Law Talk
+3010,bc2,DE,OPS Event 4,Event 4,Law Talk
+3011,bc3,DE,OPS Event 5,Event 5,Law Talk
+3012,bc4,DE,OPS Event 6,Event 6,Law Talk
+3013,bc5,D,OPS Event 7,Event 7,Law Talk
+3014,bc6,DE,OPS Event 8,Event 8,Law Talk
+3015,bc7,DE,OPS Event 9,Event 9,Law Talk
+3016,bc8,DE,OPS Event 10,Event 10,Law Talk
+3026,bd2,DE,OPS Invest 1,Investigations 1,Law Tac
+3027,bd3,DE,OPS Invest 2,Investigations 2,Law Tac
+3050,bea,DE,OPS Support,Operations Support,Law Tac
+3051,beb,DE,OPS Logistics,Logistics,Law Talk
+462,1ce,D,OPS Supergroup,Police Supergroup,Law Talk
+3502,dae,DE,OFS Dispatch,Dispatch,Fire Dispatch
+3509,db5,DE,OFS-D1_1,District 1 - Central 1,Fire-Tac
+3510,db6,DE,OFS D-1_2,District 1 - Central 2,Fire-Tac
+3512,db8,DE,OFS-D1_4,District 1 - Central 4,Fire-Tac
+3514,dba,DE,OFS-D2_1,District 2 - Western 1 ,Fire-Tac
+3515,dbb,DE,OFS-D2_2,District 2 - Western 2,Fire-Tac
+3519,dbf,DE,OFS-D3_1 ,District 3 - Southern 1,Fire-Tac
+3520,dc0,DE,OFS-D3_2,District 3 - Southern 2,Fire-Tac
+3524,dc4,DE,OFS-D4_1,District 4 - Deep West 1,Fire-Tac
+3525,dc5,DE,OFS-D4_2,District 4 - Deep West 2,Fire-Tac
+3526,dc6,DE,OFS-D4_3,District 4 - Deep West 3,Fire-Tac
+3527,dc7,DE,OFS-D4_4,District 4 - Deep West 4,Fire-Tac
+3528,dc8,DE,OFS-D4_5,District 4 - Deep West 5,Fire-Tac
+3529,dc9,DE,OFS-D5_1,District 5 - Eastern 1,Fire-Tac
+3530,dca,DE,OFS-D5_2,District 5  - Eastern 2,Fire-Tac
+3531,dcb,DE,OFS-D5_3,District 5 - Eastern 3,Fire-Tac
+3534,dce,DE,OFS-D6_1 I/O,District 6 - Western Sector 1 - Interop with other Districts,Interop
+3536,dd0,DE,OFS-D6_3,District 6 - Western Sector 3,Fire-Tac
+3538,dd2,DE,OFS-D6_5,District 6 - Western Sector 5,Fire-Tac
+3539,dd3,DE,OFS-D7_1,District 7 - Eastern Sector Volunteers 1,Fire-Tac
+3540,dd4,DE,OFS-D7_2,District 7 - Eastern Sector Volunteers 2,Fire-Tac
+3544,dd8,DE,OFS-D8_1,District 8 - Southwest Sector 1,Fire-Tac
+3545,dd9,DE,OFS-D8_2,District 8 - Southwest Sector 2,Fire-Tac
+3546,dda,DE,OFS-D8_3,District 8 - Southwest Sector 3,Fire-Tac
+3549,ddd,DE,OFS-D9_1,District 9 - Southeast Sector Volunteers 1,Fire-Tac
+3550,dde,DE,OFS_D9_2,District 9 - Southeast Sector Volunteers 2,Fire-Tac
+3552,de0,DE,OFS-D9_4,District 9 - Southeast Sector Volunteers 4,Fire-Tac
+3503,daf,DE,OFS Emergency ,Emergency Channel ,Fire-Tac
+3504,db0,DE,OFS FSU,Fire Support Unit,Fire-Tac
+3522,dc2,DE,OFS/OPS I/O,Fire/EMS Interop,Interop
+3558,de6,DE,OFS SE 1,Special Event 1,Fire-Tac
+3559,de7,DE,OFS SE 2,Special Event 2,Fire-Tac
+3554,de2,DE,OFS Training 1,Training 1,Fire-Talk
+3555,de3,DE,OFS Training 2,Training 2,Fire-Talk
+3556,de4,DE,OFS Training 3,Training 3,Fire-Talk
+3557,de5,DE,OFS Training 4,Training 4,Fire-Talk
+498,1f2,D,OFS Supergroup,Fire Supergroup,Fire-Talk
+2691,a83,DE,OPS Command 1,Command 1,EMS-Tac
+2692,a84,DE,OPS Command 2,Command 2,EMS-Tac
+2701,a8d,DE,OPS Medic MCI 1,Mass Casualty Incidents 1,EMS-Tac
+2702,a8e,DE,OPS Medic MCI 2,Mass Casualty Incidents 2,EMS-Tac
+2703,a8f,DE,Special OPS 1,Special Ops 1,EMS-Tac
+2704,a90,DE,Special OPS 2,Special Ops 2,EMS-Tac
+2721,aa1,DE,OPS Medic 1,Medic 1,EMS-Talk
+2722,aa2,DE,OPS Medic 2,Medic 2,EMS-Talk
+2723,aa3,DE,OPS Medic 3,Medic 3 Special Events,EMS-Tac
+2724,aa4,DE,OPS Medic 4,Medic 4,EMS-Talk
+2725,aa5,DE,OPS Medic 5,Medic 5,EMS-Talk
+2080,820,DE,EOC 1,Emergency Operation Centre 1,Emergency Ops
+2081,821,DE,EOC 2,Emergency Operations Centre 2,Emergency Ops
+2045,7fd,De,ES 1,Emergency Services 1,Emergency Ops
+2046,7fe,DE,ES 2,Emergency Services 2,Emergency Ops
+2580,a14,DE,CBSA 1,CBSA 1,Federal
+2581,a15,DE,CBSA 2,CBSA 2,Federal
+2584,a18,DE,CBSA 3,CBSA 3,Federal
+2872,b38,D,Commissionaires,Commissionaires ,Law Talk
+2873,b39,D,Commissionaires,Commissionaires,Law Talk
+2874,b3a,DE,Commissionaires ,Commissionaires OPS Link,Law Talk
+2875,b3b,DE,Commissionaires,Commissionaires,Law Talk
+2,002,D,City IT Service,City of Ottawa - Communication/IT Installation Services,Business
+3,003,D,City Comms,City of Ottawa - Radio Technicians,Business
+6,006,D,City Comms,City of Ottawa - Radio Technicians,Business
+2001,7d1,D,Interop 1,Interoperational 1,Interop
+2002,7d2,D,Interop 2,Interoperational 2,Interop
+2003,7d3,D,Interop 3,Interoperational 3,Interop
+2004,7d4,D,Roads-East Main,Roads - East Main,Public Works
+2005,7d5,D,Water - West,Water - West ,Public Works
+2006,7d6,D,Roads/WasteLink,Roads/Waste Link,Public Works
+2007,7d7,D,Roads/Bylaw,Roads/Bylaw Patch/Link,Public Works
+2008,7d8,D,Water - East,Water - East,Public Works
+2009,7d9,D,Water - Hydrants,Water - Hydrants,Public Works
+2010,7da,D,Water - Hydro,Water - Hydro ,Public Works
+2013,7dd,D,Water - Spare,Water - Spare- Mobile Operation,Public Works
+2016,7e0,D,Water - Lemieux ,Water - Lemieux Island Purification Plant,Public Works
+2017,7e1,D,Waste 1,Waste 1,Public Works
+2018,7e2,D,Waste 2,Waste 2,Public Works
+2019,7e3,D,G/R Landfil Ops1,Garbage/Recycling - Landfill Operations 1,Public Works
+2020,7e4,D,G/R Landfil Ops2,Garbage/Recycling - Landfill Operations 2,Public Works
+2021,7e5,D,Waste Spare,Waste Spare,Public Works
+2022,7e6,D,Waste Spare,Waste Spare,Public Works
+2023,7e7,D,City Plant Ops,City Waste Plant Operations,Public Works
+2024,7e8,D,Waste Spare,Waste Spare,Public Works
+2025,7e9,D,Waste Spare,Waste Spare,Public Works
+2029,7ed,D,311 City Service,311 - City Service Response,Business
+2031,7ef,D,311 City Service,311 - City Service Response,Business
+2032,7f0,D,311/Waste Link,311 - Waste Link,Business
+2033,7f1,D,311 Spare,311 - Spare,Business
+2034,7f2,D,Bylaw Spare,Bylaw Spare,Law Talk
+2035,7f3,D,Water,Water,Public Works
+2036,7f4,D,Bylaw/Parking,Bylaw/Parking,Law Talk
+2037,7f5,D,Bylaw/ParkingEnf,Bylaw Enforcement,Law Talk
+2038,7f6,D,Event Ops,Event Operations,Business
+2039,7f7,D,Bylaw/Parking 1,Bylaw and Parking Control ,Law Talk
+2040,7f8,D,City Parks,City Parks,Law Talk
+2041,7f9,D,Bylaw Event 1,Bylaw Event 1,Law Talk
+2042,7fa,D,Bylaw Event 2,Bylaw Event 2,Law Talk
+2043,7fb,D,City Parking,City of Ottawa - Parking Lots,Public Works
+2048,800,D,City Parks,City Parks,Public Works
+2050,802,D,City Parks,City Parks,Public Works
+2053,805,D,Water - Sewer,Water - Sewer System,Public Works
+2054,806,D,Roads Cleaning,Roads - Cleaning,Public Works
+2055,807,D,Roads-West Main,Roads - West Main,Public Works
+2056,808,D,Roads OC/CityI/O,Roads - OC Property/City Interop,Public Works
+2057,809,D,PW Culverts,Public Works - Culverts,Public Works
+2058,80a,D,City Facilities ,City Facilities - Property Services,Public Works
+2059,80b,D,Roads WinterOps ,Roads - Winter Operations - Spare,Public Works
+2060,80c,D,City Parks ,City Parks - Cleaning,Public Works
+2061,80d,D,City Parks,City Parks,Public Works
+2062,80e,D,City Parks,City Parks,Public Works
+2063,80f,D,Roads 12,Roads12,Public Works
+2068,814,D,OPH Vacc Coord,Ottawa Public Health - Vaccine Coordination,Public Works
+2069,815,D,OPH Emergency,Ottawa Public Health - Emergency,Public Works
+2073,819,D,City Hall Sec,City Hall - Security,Security
+2074,81a,D,Security BFP/MPC,Corporate Security - Ben Franklin Place and the Mary Pitt Center,Security
+2812,afc,D,City Conf Room,City of Ottawa - Conference Room Staff,Business
+1505,5e1,D,Transpo ALLCALL,ALLCALL ,Transportation
+1561,619,D,OC Trans Control,Control,Transportation
+1563,61b,D,OC Trans Control,Control,Transportation
+1595,63b,D,OC Trans Control,Control,Transportation
+1598,63e,D,OC Trans Control,Control,Transportation
+1516,5ec,DE,Transpo SC Disp,Special Constables - Dispatch,Law Dispatch
+1517,5ed,DE,Transpo SC Tac 1,Special Constables - Tac 1,Law Tac
+1518,5ee,DE,Transpo SC Tac 2,Special Constables - Tac 2,Law Tac
+1519,5ef,DE,Fare Enforcement,Fare Enforcement,Law Tac
+1503,5df,D,Supervisor 1,Supervisor - Channel 1,Transportation
+1504,5e0,D,Supervisor 2,Supervisor - Channel 2,Transportation
+1502,5de,D,Supervisor 3 ,Supervisor - Channel 3 - Control,Transportation
+1514,5ea,D,Supervisor 4,Supervisor - Channel 4,Transportation
+1515,5eb,D,Supervisor 5,Supervisor - Channel 5,Transportation
+1562,61a,D,Supervisor,Supervisor,Transportation
+1576,628,D,Supervisor,Supervisor,Transportation
+1506,5e2,D,Operators Ch. 2,Operators Ch. 2,Transportation
+1507,5e3,D,Operators Ch. 3,Operators Ch. 3,Transportation
+1508,5e4,D,Operators Ch. 4,Operators Ch. 4,Transportation
+1509,5e5,D,Operators Ch. 5,Operators Ch. 5,Transportation
+1510,5e6,D,Operators Ch. 6,Operators Ch. 6,Transportation
+1511,5e7,D,Operators Ch. 7,Operators Ch. 7 - Control,Transportation
+1512,5e8,D,Operators Ch. 8,Operators Ch. 8,Transportation
+1513,5e9,D,OC TranspoAdmin9,Scheduling / Administration Ch. 9,Transportation
+1520,5f0,D,ServiceMechanics,Service Mechanics ,Transportation
+1521,5f1,D,ServiceMechanics,Service Mechanics,Transportation
+1523,5f3,D,ServiceMechanics,Service Mechanics ,Transportation
+1528,5f8,D,ParaTranspo 1 ,ParaTranspo 1 - General Chat,Transportation
+479,1df,D,ParaTranspo 2,ParaTranspo 2 - Main Operations,Transportation
+1530,5fa,D,ParaTranspo 3,ParaTranspo 3,Transportation
+1531,5fb,D,ParaTranspo 4,ParaTranspo 4 - Service,Transportation
+1529,5f9,D,ParaTranspo Mech,ParaTranspo Mechanics,Transportation
+1501,5dd,D,Transpo Common,Common,Transportation
+1525,5f5,D,OC Property Mgmt,OC Property Maintenance,Public Works
+1535,5ff,DE,LRT Security,LRT Security,Security
+1551,60f,DE,LRT Supervisor,LRT Supervisor,Transportation
+1548,60c,DE,LRT Operations,LRT Operations,Transportation
+1545,609,D,LRT Shuttle,LRT Shuttle,Transportation
+1555,613,D,LRT Testing,LRT Testing,Transportation
+1537,601,DE,Confed1 Mainline,LRT 1 Mainline Control Zones 1-4,Transportation
+1538,602,DE,Confed2 Alt,LRT 2 Alternate - Maintenance of Way,Transportation
+1539,603,DE,Confed3 Belfast ,LRT 3 Belfast Yard Zone 5,Transportation
+1540,604,DE,Confed4 Alarms,LRT 4 Intrusion Alarms,Transportation
+1541,605,DE,Confed5 Shuttles,LRT 5 Employee Transportation - Shuttles,Transportation
+1553,611,D,LRT Track Maint,LRT Track Maintenance,Transportation
+479,1df,D,OC Trans Super,Transit Supergroup,Transportation
+2502,9c6,DE,CYOW Fire 1,Fire - Ch. 1,Fire-Tac
+2503,9c7,D,CYOW Fire 2,Fire - Ch. 2 Training,Fire-Tac
