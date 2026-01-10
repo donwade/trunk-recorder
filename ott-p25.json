@@ -1,4 +1,6 @@
 {
+    "frequencyFormat": "mHz",
+    "logLevel": "trace",
     "ver": 2,
     "sources": [
         {
