@@ -1,6 +1,7 @@
 #! /bin/sh
 
 set -e
+CFLAGS="-I/home/dwade/x86_64/include -I/home/dwade/my-trunkRecorder/trunk-recorder/lib -I/home/dwade/my-trunkRecorder/trunk-recorder/lib/op25_repeater/include -I/home/dwade/my-trunkRecorder/trunk-recorder/lib/op25_repeater/lib  "
 
 # trunk-recorder install script for debian based systems
 # including ubuntu 18.04/20.04 and raspbian
@@ -13,8 +14,8 @@ if [ ! -d trunk-recorder/recorders ]; then
 fi
 
 pre_reqs() {
-    PKG_LIST="gnuradio gnuradio-dev gr-osmosdr libhackrf-dev libuhd-dev libgmp-dev"
-    PKG_LIST="$PKG_LIST fdkaac sox"
+    KILL_PKG_LIST="gnuradio gnuradio-dev gr-osmosdr libhackrf-dev libuhd-dev"
+    PKG_LIST="$PKG_LIST fdkaac sox libgmp-dev"
     PKG_LIST="$PKG_LIST git cmake build-essential libboost-all-dev libusb-1.0-0.dev libssl-dev libcurl4-openssl-dev liborc-0.4-dev"
 
     ISSUE=$(cat /etc/issue)
@@ -25,6 +26,7 @@ pre_reqs() {
 
     sudo apt-get update
     sudo apt-get install $PKG_LIST
+    sudo apt-get remove $KILL_PKG_LIST
 }
 
 freshen_repo() {
@@ -37,8 +39,10 @@ freshen_repo() {
 do_build() {
     mkdir build
     cd build
-    cmake ../
-    make SHELL='/bin/bash -x'  -j4
+    export PKG_CONFIG_LIBDIR='/home/dwade/x86_64/lib/pkgconfig'
+    #cmake --debug-find-pkg=gnuradio-osmosdr -DCMAKE_CXX_FLAGS="$CFLAGS"  ../
+    cmake --trace-expand --debug-find -DCMAKE_CXX_FLAGS="$CFLAGS"  ../
+    make SHELL='/bin/bash -x' VERBOSE=1  -j4
     cd ..
 }
 
@@ -63,7 +67,7 @@ rebuild_steps() {
 }
 
 install_steps() {
-    pre_reqs
+    #pre_reqs
     rebuild_steps
     blacklist
 }

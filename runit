@@ -1,0 +1,3 @@
+#!/bin/bash
+trunk-recorder --config $PWD/config.json
+

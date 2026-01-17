@@ -1,0 +1,12 @@
+#!/bin/bash
+rm -f ~/pkg*
+
+#ask "clean" 5
+#if [ $? != 0 ]; then
+    yes "$PISSWORD" | sudo -S rm -rf build
+#fi
+
+dmake --radio --Debug 
+
+trunk-recorder --config /home/dwade/my-trunkRecorder/trunk-recorder/config.json
+

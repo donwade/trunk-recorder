@@ -16,11 +16,9 @@
     ],
     "systems": [
         {
-            "control_channels": [
-                866887500
-            ],
+            "control_channels": [ 867139900 ],
             "type": "p25",
-            "talkgroupsFile": "/home/dwade/my-trunkRecorder/trunk-recorder/ott-p25.csv",
+            "talkgroupsFile": "ott-p25.csv",
             "talkgroupDisplayFormat": "id_tag",
             "shortName": "ott-p25",
             "modulation": "fsk4",
